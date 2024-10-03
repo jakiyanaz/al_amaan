@@ -1,0 +1,174 @@
+:root {
+    --primary: #06A3DA;
+    --secondary: #34AD54;
+    --light: #EEF9FF;
+    --dark: #091E3E;
+    --logocolor: #163809;
+}
+
+/*** Navbar ***/
+#navcontainer{
+    border: 2px solid red;
+}
+
+.navbar-dark {
+    background-color: #163809;
+    border: 2px solid white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /* border: 2px solid blue; */
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    margin-left: 25px;
+    /* padding: 35px 0; */
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    transition: .5s;
+}
+
+/* .sticky-top.navbar-dark .navbar-nav .nav-link {
+    padding: 20px 0;
+    color: var(--dark);
+} */
+
+.buttons{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    /* color: var(--primary); */
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+/* .navbar-dark .navbar-brand h1 {
+    color: #FFFFFF;
+} */
+
+.navbar-dark .navbar-toggler {
+    color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+#primevidcontainer{
+    padding: 0;
+}
+
+.textshadow{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.featuresdiv {
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+}
+
+.video-responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire div without distorting */
+    position: absolute; /* Stays within the bounds of the container */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensures it stays behind other content if necessary */
+    border-radius: inherit; /* Matches the rounded corners of the parent div if applicable */
+}
+
+.coursediv{
+    /* border: 2px solid red; */
+}
+
+.divtestimonial {
+    /* border: 2px solid red; */
+    background-color: black;
+    margin-bottom: 5rem;
+}
+
+.testimonialcard {
+    box-shadow: 0px 0px 5px white;
+}
+
+.ourteachers{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5rem;
+}
+
+.imagesliderdiv {
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 720px 55px;
+} */
+
+.card-list .card-item {
+    color: #FFF;
+    width: 400px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-list .card-item .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #fff;
+    padding: 4px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: green; 
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: darkgreen; 
+}
+.swiper-pagination-bullet {
+    background-color: green;
+}
+/* Active bullet color */
+.swiper-pagination-bullet-active {
+    background-color: darkgreen; 
+}
+#contactfooter{
+    background-color: green;
+}
+#contactfooter:hover{
+    background-color: #163809;
+}
+.knowmore {
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    background-color: green;
+}
+.knowmore:hover {
+    background-color: #163809;
+    color: white;
+}
+
